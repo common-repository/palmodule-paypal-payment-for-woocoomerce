@@ -1,0 +1,38 @@
+.single_add_to_cart_button.button.alt {
+    margin-bottom: 15px;
+}
+.paypal-checkout-iframe-container {
+    z-index: 999999999;
+}
+#palmodule_express_checkout_paypal_button {
+    margin: 0px auto;
+    float: left;
+    clear: both;
+    width: 100% !important;
+    border: medium none;
+    height: auto;
+    padding: 0;
+    width: auto;
+    background: rgba(0, 0, 0, 0) none repeat scroll 0 0 !important;
+    box-shadow: none;
+    text-align: left;
+}
+
+#palmodule_express_checkout_paypal_cc_button {
+    margin: 0px auto;
+    float: left;
+    clear: both;
+    width: 100% !important;
+    border: medium none;
+    height: auto;
+    padding: 0;
+    width: auto;
+    background: rgba(0, 0, 0, 0) none repeat scroll 0 0 !important;
+    box-shadow: none;
+    text-align: left;
+}
+.woocommerce-NoticeGroup-checkout {
+    clear: both;
+    float: left;
+    width: 100%;
+}

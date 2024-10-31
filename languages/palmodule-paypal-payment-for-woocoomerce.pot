@@ -1,0 +1,992 @@
+# Copyright (C) 2017 PayPal Payment For WooCoomerce
+# This file is distributed under the same license as the PayPal Payment For WooCoomerce package.
+msgid ""
+msgstr ""
+"Project-Id-Version: PayPal Payment For WooCoomerce 1.0.2\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/palmodule-paypal-payment-for-woocoomerce\n"
+"POT-Creation-Date: 2017-09-12 03:16:47+00:00\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"PO-Revision-Date: 2017-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+
+#: includes/class-palmodule-paypal-payment-for-woocoomerce-calculations.php:84
+#: includes/class-palmodule-paypal-payment-for-woocoomerce-calculations.php:185
+msgid "Item"
+msgstr ""
+
+#: includes/class-palmodule-paypal-payment-for-woocoomerce-calculations.php:98
+#: includes/class-palmodule-paypal-payment-for-woocoomerce-calculations.php:198
+msgid "Fee"
+msgstr ""
+
+#: includes/gateways/braintree/class-wc-gateway-palmodule-braintree.php:29
+msgid "Credit Card payments Powered by PayPal / Braintree."
+msgstr ""
+
+#: includes/gateways/braintree/class-wc-gateway-palmodule-braintree.php:87
+msgid "Braintree"
+msgstr ""
+
+#: includes/gateways/braintree/class-wc-gateway-palmodule-braintree.php:352
+msgid "%s payment approved! Trnsaction ID: %s"
+msgstr ""
+
+#: includes/gateways/braintree/class-wc-gateway-palmodule-braintree.php:356
+msgid "Transaction was submitted to PayPal Braintree but not handled by WooCommerce order, transaction_id: %s, status: %s. Order was put in-hold."
+msgstr ""
+
+#: includes/gateways/braintree/class-wc-gateway-palmodule-braintree.php:648
+#: includes/gateways/braintree/class-wc-gateway-palmodule-braintree.php:670
+msgid "Refunded %s - Transaction ID: %s"
+msgstr ""
+
+#: includes/gateways/braintree/class-wc-gateway-palmodule-braintree.php:664
+msgid "Oops, you cannot partially void this order. Please use the full order amount."
+msgstr ""
+
+#: includes/gateways/braintree/settings-palmodule-braintree.php:12
+#: includes/gateways/express-checkout/settings-palmodule-express-checkout.php:15
+#: includes/gateways/paypal-advanced/settings-palmodule-paypal-advanced.php:12
+#: includes/gateways/paypal-pro/settings-palmodule-paypal-pro.php:12
+#: includes/gateways/paypal-pro-payflow/settings-palmodule-paypal-pro-payflow.php:12
+#: includes/gateways/paypal-rest/settings-palmodule-paypal-rest.php:12
+msgid "Enable/Disable"
+msgstr ""
+
+#: includes/gateways/braintree/settings-palmodule-braintree.php:13
+msgid "Enable Braintree Payment Gateway"
+msgstr ""
+
+#: includes/gateways/braintree/settings-palmodule-braintree.php:19
+#: includes/gateways/express-checkout/settings-palmodule-express-checkout.php:22
+#: includes/gateways/paypal-advanced/settings-palmodule-paypal-advanced.php:19
+#: includes/gateways/paypal-pro/settings-palmodule-paypal-pro.php:19
+#: includes/gateways/paypal-pro-payflow/settings-palmodule-paypal-pro-payflow.php:19
+#: includes/gateways/paypal-rest/settings-palmodule-paypal-rest.php:18
+msgid "Title"
+msgstr ""
+
+#: includes/gateways/braintree/settings-palmodule-braintree.php:21
+#: includes/gateways/express-checkout/settings-palmodule-express-checkout.php:24
+#: includes/gateways/paypal-advanced/settings-palmodule-paypal-advanced.php:21
+#: includes/gateways/paypal-pro/settings-palmodule-paypal-pro.php:21
+#: includes/gateways/paypal-pro-payflow/settings-palmodule-paypal-pro-payflow.php:21
+#: includes/gateways/paypal-rest/settings-palmodule-paypal-rest.php:20
+msgid "This controls the title which the user sees during checkout."
+msgstr ""
+
+#: includes/gateways/braintree/settings-palmodule-braintree.php:22
+msgid "Braintree (Credit Card/PayPal)"
+msgstr ""
+
+#: includes/gateways/braintree/settings-palmodule-braintree.php:26
+#: includes/gateways/express-checkout/settings-palmodule-express-checkout.php:29
+#: includes/gateways/paypal-advanced/settings-palmodule-paypal-advanced.php:26
+#: includes/gateways/paypal-pro/settings-palmodule-paypal-pro.php:26
+#: includes/gateways/paypal-pro-payflow/settings-palmodule-paypal-pro-payflow.php:26
+#: includes/gateways/paypal-rest/settings-palmodule-paypal-rest.php:24
+msgid "Description"
+msgstr ""
+
+#: includes/gateways/braintree/settings-palmodule-braintree.php:28
+#: includes/gateways/express-checkout/settings-palmodule-express-checkout.php:31
+#: includes/gateways/paypal-advanced/settings-palmodule-paypal-advanced.php:28
+#: includes/gateways/paypal-pro/settings-palmodule-paypal-pro.php:28
+#: includes/gateways/paypal-pro-payflow/settings-palmodule-paypal-pro-payflow.php:28
+#: includes/gateways/paypal-rest/settings-palmodule-paypal-rest.php:26
+msgid "This controls the description which the user sees during checkout."
+msgstr ""
+
+#: includes/gateways/braintree/settings-palmodule-braintree.php:33
+#: includes/gateways/paypal-advanced/settings-palmodule-paypal-advanced.php:44
+#: includes/gateways/paypal-pro/settings-palmodule-paypal-pro.php:102
+#: includes/gateways/paypal-pro-payflow/settings-palmodule-paypal-pro-payflow.php:44
+#: includes/gateways/paypal-rest/settings-palmodule-paypal-rest.php:30
+msgid "Invoice Prefix"
+msgstr ""
+
+#: includes/gateways/braintree/settings-palmodule-braintree.php:35
+#: includes/gateways/paypal-advanced/settings-palmodule-paypal-advanced.php:46
+#: includes/gateways/paypal-pro/settings-palmodule-paypal-pro.php:104
+#: includes/gateways/paypal-pro-payflow/settings-palmodule-paypal-pro-payflow.php:46
+#: includes/gateways/paypal-rest/settings-palmodule-paypal-rest.php:32
+msgid "Please enter a prefix for your invoice numbers. If you use your PayPal account for multiple stores ensure this prefix is unique as PayPal will not allow orders with the same invoice number."
+msgstr ""
+
+#: includes/gateways/braintree/settings-palmodule-braintree.php:40
+msgid "Sandbox"
+msgstr ""
+
+#: includes/gateways/braintree/settings-palmodule-braintree.php:41
+msgid "Enable Sandbox Mode"
+msgstr ""
+
+#: includes/gateways/braintree/settings-palmodule-braintree.php:43
+msgid "Place the payment gateway in sandbox mode using sandbox API keys (real payments will not be taken)."
+msgstr ""
+
+#: includes/gateways/braintree/settings-palmodule-braintree.php:47
+msgid "Sandbox Public Key"
+msgstr ""
+
+#: includes/gateways/braintree/settings-palmodule-braintree.php:49
+#: includes/gateways/braintree/settings-palmodule-braintree.php:56
+#: includes/gateways/braintree/settings-palmodule-braintree.php:63
+#: includes/gateways/braintree/settings-palmodule-braintree.php:70
+#: includes/gateways/braintree/settings-palmodule-braintree.php:77
+#: includes/gateways/braintree/settings-palmodule-braintree.php:84
+msgid "Get your API keys from your Braintree account."
+msgstr ""
+
+#: includes/gateways/braintree/settings-palmodule-braintree.php:54
+msgid "Sandbox Private Key"
+msgstr ""
+
+#: includes/gateways/braintree/settings-palmodule-braintree.php:61
+msgid "Sandbox Merchant ID"
+msgstr ""
+
+#: includes/gateways/braintree/settings-palmodule-braintree.php:68
+msgid "Live Public Key"
+msgstr ""
+
+#: includes/gateways/braintree/settings-palmodule-braintree.php:75
+msgid "Live Private Key"
+msgstr ""
+
+#: includes/gateways/braintree/settings-palmodule-braintree.php:82
+msgid "Live Merchant ID"
+msgstr ""
+
+#: includes/gateways/braintree/settings-palmodule-braintree.php:89
+#: includes/gateways/paypal-advanced/settings-palmodule-paypal-advanced.php:130
+#: includes/gateways/paypal-pro/settings-palmodule-paypal-pro.php:120
+#: includes/gateways/paypal-pro-payflow/settings-palmodule-paypal-pro-payflow.php:130
+#: includes/gateways/paypal-rest/settings-palmodule-paypal-rest.php:68
+msgid "Card Icon"
+msgstr ""
+
+#: includes/gateways/braintree/settings-palmodule-braintree.php:95
+#: includes/gateways/paypal-advanced/settings-palmodule-paypal-advanced.php:136
+#: includes/gateways/paypal-pro/settings-palmodule-paypal-pro.php:126
+#: includes/gateways/paypal-pro-payflow/settings-palmodule-paypal-pro-payflow.php:136
+#: includes/gateways/paypal-rest/settings-palmodule-paypal-rest.php:74
+msgid "Debug Log"
+msgstr ""
+
+#: includes/gateways/braintree/settings-palmodule-braintree.php:97
+#: includes/gateways/paypal-advanced/settings-palmodule-paypal-advanced.php:138
+#: includes/gateways/paypal-pro/settings-palmodule-paypal-pro.php:128
+#: includes/gateways/paypal-pro-payflow/settings-palmodule-paypal-pro-payflow.php:138
+#: includes/gateways/paypal-rest/settings-palmodule-paypal-rest.php:76
+msgid "Enable logging"
+msgstr ""
+
+#: includes/gateways/braintree/settings-palmodule-braintree.php:99
+msgid "Log PayPal/Braintree events, inside <code>%s</code>"
+msgstr ""
+
+#: includes/gateways/express-checkout/class-wc-gateway-palmodule-express-checkout.php:16
+msgid "PayPal Express Checkout "
+msgstr ""
+
+#: includes/gateways/express-checkout/class-wc-gateway-palmodule-express-checkout.php:18
+msgid "Increase sales by using PayPal express checkout to accept payments."
+msgstr ""
+
+#: includes/gateways/express-checkout/class-wc-gateway-palmodule-express-checkout.php:50
+msgid "PayPal Express Checkout"
+msgstr ""
+
+#: includes/gateways/express-checkout/class-wc-gateway-palmodule-express-checkout.php:99
+msgid "Cheatin&#8217; huh?"
+msgstr ""
+
+#: includes/gateways/express-checkout/settings-palmodule-express-checkout.php:11
+msgid "This image requires an SSL host.  Please upload your image to <a target=\"_blank\" href=\"http://www.sslpic.com\">www.sslpic.com</a> and enter the image URL here."
+msgstr ""
+
+#: includes/gateways/express-checkout/settings-palmodule-express-checkout.php:16
+msgid "Enable PayPal Express"
+msgstr ""
+
+#: includes/gateways/express-checkout/settings-palmodule-express-checkout.php:25
+msgid "PayPal Express"
+msgstr ""
+
+#: includes/gateways/express-checkout/settings-palmodule-express-checkout.php:32
+msgid "Pay via PayPal; you can pay with your credit card if you don't have a PayPal account"
+msgstr ""
+
+#: includes/gateways/express-checkout/settings-palmodule-express-checkout.php:36
+msgid "Account Settings"
+msgstr ""
+
+#: includes/gateways/express-checkout/settings-palmodule-express-checkout.php:41
+#: includes/gateways/paypal-rest/settings-palmodule-paypal-rest.php:37
+msgid "Sandbox Mode"
+msgstr ""
+
+#: includes/gateways/express-checkout/settings-palmodule-express-checkout.php:43
+#: includes/gateways/paypal-rest/settings-palmodule-paypal-rest.php:39
+msgid "Enable PayPal Sandbox Mode"
+msgstr ""
+
+#: includes/gateways/express-checkout/settings-palmodule-express-checkout.php:45
+#: includes/gateways/paypal-rest/settings-palmodule-paypal-rest.php:41
+msgid "Place the payment gateway in development mode. Sign up for a developer account <a href=\"%s\" target=\"_blank\">here</a>"
+msgstr ""
+
+#: includes/gateways/express-checkout/settings-palmodule-express-checkout.php:48
+#: includes/gateways/paypal-rest/settings-palmodule-paypal-rest.php:44
+msgid "Sandbox Client ID"
+msgstr ""
+
+#: includes/gateways/express-checkout/settings-palmodule-express-checkout.php:54
+#: includes/gateways/paypal-rest/settings-palmodule-paypal-rest.php:50
+msgid "Sandbox Secret ID"
+msgstr ""
+
+#: includes/gateways/express-checkout/settings-palmodule-express-checkout.php:56
+#: includes/gateways/paypal-rest/settings-palmodule-paypal-rest.php:52
+msgid "Enter your Sandbox PayPal Rest API Secret ID."
+msgstr ""
+
+#: includes/gateways/express-checkout/settings-palmodule-express-checkout.php:60
+#: includes/gateways/paypal-rest/settings-palmodule-paypal-rest.php:56
+msgid "Live Client ID"
+msgstr ""
+
+#: includes/gateways/express-checkout/settings-palmodule-express-checkout.php:66
+#: includes/gateways/paypal-rest/settings-palmodule-paypal-rest.php:62
+msgid "Live Secret ID"
+msgstr ""
+
+#: includes/gateways/express-checkout/settings-palmodule-express-checkout.php:68
+#: includes/gateways/paypal-rest/settings-palmodule-paypal-rest.php:64
+msgid "Enter your PayPal Rest API Secret ID."
+msgstr ""
+
+#: includes/gateways/express-checkout/settings-palmodule-express-checkout.php:72
+msgid "Display Settings (Optional)"
+msgstr ""
+
+#: includes/gateways/express-checkout/settings-palmodule-express-checkout.php:74
+msgid "Customize the appearance of Express Checkout in your store."
+msgstr ""
+
+#: includes/gateways/express-checkout/settings-palmodule-express-checkout.php:77
+msgid "Page Style"
+msgstr ""
+
+#: includes/gateways/express-checkout/settings-palmodule-express-checkout.php:79
+msgid "Optionally enter the name of the page style you wish to use. These are defined within your PayPal account."
+msgstr ""
+
+#: includes/gateways/express-checkout/settings-palmodule-express-checkout.php:82
+#: includes/gateways/express-checkout/settings-palmodule-express-checkout.php:97
+#: includes/gateways/express-checkout/settings-palmodule-express-checkout.php:105
+msgid "Optional"
+msgstr ""
+
+#: includes/gateways/express-checkout/settings-palmodule-express-checkout.php:85
+msgid "Brand Name"
+msgstr ""
+
+#: includes/gateways/express-checkout/settings-palmodule-express-checkout.php:87
+msgid "This controls what users see as the brand / company name on PayPal review pages."
+msgstr ""
+
+#: includes/gateways/express-checkout/settings-palmodule-express-checkout.php:92
+msgid "PayPal Checkout Logo Image(190x60)"
+msgstr ""
+
+#: includes/gateways/express-checkout/settings-palmodule-express-checkout.php:94
+msgid "This controls what users see as the logo on PayPal review pages. "
+msgstr ""
+
+#: includes/gateways/express-checkout/settings-palmodule-express-checkout.php:100
+msgid "Header Image (750x90)"
+msgstr ""
+
+#: includes/gateways/express-checkout/settings-palmodule-express-checkout.php:102
+msgid "This controls what users see as the header banner on PayPal review pages. "
+msgstr ""
+
+#: includes/gateways/express-checkout/settings-palmodule-express-checkout.php:109
+msgid "Cart Page"
+msgstr ""
+
+#: includes/gateways/express-checkout/settings-palmodule-express-checkout.php:110
+msgid "Show Express Checkout button on shopping cart page."
+msgstr ""
+
+#: includes/gateways/express-checkout/settings-palmodule-express-checkout.php:115
+msgid "Cart Button Position"
+msgstr ""
+
+#: includes/gateways/express-checkout/settings-palmodule-express-checkout.php:116
+msgid "Where to display PayPal Express Checkout button(s)."
+msgstr ""
+
+#: includes/gateways/express-checkout/settings-palmodule-express-checkout.php:118
+msgid "Set where to display the PayPal Express Checkout button(s)."
+msgstr ""
+
+#: includes/gateways/express-checkout/settings-palmodule-express-checkout.php:129
+msgid "Product Page"
+msgstr ""
+
+#: includes/gateways/express-checkout/settings-palmodule-express-checkout.php:131
+msgid "Show the Express Checkout button on product detail pages."
+msgstr ""
+
+#: includes/gateways/express-checkout/settings-palmodule-express-checkout.php:133
+msgid "Allows customers to checkout using PayPal directly from a product page."
+msgstr ""
+
+#: includes/gateways/express-checkout/settings-palmodule-express-checkout.php:137
+msgid "PayPal Account Optional"
+msgstr ""
+
+#: includes/gateways/express-checkout/settings-palmodule-express-checkout.php:139
+msgid "Allow customers to checkout without a PayPal account using their credit card."
+msgstr ""
+
+#: includes/gateways/express-checkout/settings-palmodule-express-checkout.php:141
+msgid "PayPal Account Optional must be turned on in your PayPal account profile under Website Preferences."
+msgstr ""
+
+#: includes/gateways/express-checkout/settings-palmodule-express-checkout.php:145
+msgid "Landing Page"
+msgstr ""
+
+#: includes/gateways/express-checkout/settings-palmodule-express-checkout.php:148
+msgid "Type of PayPal page to display."
+msgstr ""
+
+#: includes/gateways/express-checkout/settings-palmodule-express-checkout.php:152
+msgctxt "Type of PayPal page"
+msgid "Billing (Non-PayPal account)"
+msgstr ""
+
+#: includes/gateways/express-checkout/settings-palmodule-express-checkout.php:153
+msgctxt "Type of PayPal page"
+msgid "Login (PayPal account login)"
+msgstr ""
+
+#: includes/gateways/express-checkout/settings-palmodule-express-checkout.php:157
+msgid "Express Checkout Message"
+msgstr ""
+
+#: includes/gateways/express-checkout/settings-palmodule-express-checkout.php:159
+msgid "This message will be displayed next to the PayPal Express Checkout button at the top of the checkout page."
+msgstr ""
+
+#: includes/gateways/express-checkout/settings-palmodule-express-checkout.php:160
+msgid "Skip the checkout form and pay faster with PayPal!"
+msgstr ""
+
+#: includes/gateways/express-checkout/settings-palmodule-express-checkout.php:164
+msgid "Express Checkout Custom Button Styles"
+msgstr ""
+
+#: includes/gateways/express-checkout/settings-palmodule-express-checkout.php:169
+msgid "Button Size"
+msgstr ""
+
+#: includes/gateways/express-checkout/settings-palmodule-express-checkout.php:172
+msgid "Type of PayPal Button Size (small | medium | responsive)."
+msgstr ""
+
+#: includes/gateways/express-checkout/settings-palmodule-express-checkout.php:176
+msgid "Small"
+msgstr ""
+
+#: includes/gateways/express-checkout/settings-palmodule-express-checkout.php:177
+msgid "Medium"
+msgstr ""
+
+#: includes/gateways/express-checkout/settings-palmodule-express-checkout.php:178
+msgid "Responsive"
+msgstr ""
+
+#: includes/gateways/express-checkout/settings-palmodule-express-checkout.php:182
+msgid "Button Shape"
+msgstr ""
+
+#: includes/gateways/express-checkout/settings-palmodule-express-checkout.php:185
+msgid "Type of PayPal Button Shape (pill | rect)."
+msgstr ""
+
+#: includes/gateways/express-checkout/settings-palmodule-express-checkout.php:189
+msgid "Pill"
+msgstr ""
+
+#: includes/gateways/express-checkout/settings-palmodule-express-checkout.php:190
+msgid "Rect"
+msgstr ""
+
+#: includes/gateways/express-checkout/settings-palmodule-express-checkout.php:194
+msgid "Button Color"
+msgstr ""
+
+#: includes/gateways/express-checkout/settings-palmodule-express-checkout.php:197
+msgid "Type of PayPal Button Color (gold | blue | silver)."
+msgstr ""
+
+#: includes/gateways/express-checkout/settings-palmodule-express-checkout.php:201
+msgid "Gold"
+msgstr ""
+
+#: includes/gateways/express-checkout/settings-palmodule-express-checkout.php:202
+msgid "Blue"
+msgstr ""
+
+#: includes/gateways/express-checkout/settings-palmodule-express-checkout.php:203
+msgid "Silver"
+msgstr ""
+
+#: includes/gateways/express-checkout/settings-palmodule-express-checkout.php:207
+msgid "Advanced Settings (Optional)"
+msgstr ""
+
+#: includes/gateways/express-checkout/settings-palmodule-express-checkout.php:212
+msgid "Invoice ID Prefix"
+msgstr ""
+
+#: includes/gateways/express-checkout/settings-palmodule-express-checkout.php:214
+msgid "Add a prefix to the invoice ID sent to PayPal. This can resolve duplicate invoice problems when working with multiple websites on the same PayPal account."
+msgstr ""
+
+#: includes/gateways/express-checkout/settings-palmodule-express-checkout.php:234
+#: includes/gateways/paypal-advanced/settings-palmodule-paypal-advanced.php:119
+#: includes/gateways/paypal-pro/settings-palmodule-paypal-pro.php:83
+#: includes/gateways/paypal-pro-payflow/settings-palmodule-paypal-pro-payflow.php:119
+msgid "Payment Action"
+msgstr ""
+
+#: includes/gateways/express-checkout/settings-palmodule-express-checkout.php:237
+#: includes/gateways/paypal-advanced/settings-palmodule-paypal-advanced.php:121
+#: includes/gateways/paypal-pro/settings-palmodule-paypal-pro.php:85
+#: includes/gateways/paypal-pro-payflow/settings-palmodule-paypal-pro-payflow.php:121
+msgid "Choose whether you wish to capture funds immediately or authorize payment only."
+msgstr ""
+
+#: includes/gateways/express-checkout/settings-palmodule-express-checkout.php:241
+msgid "Sale"
+msgstr ""
+
+#: includes/gateways/express-checkout/settings-palmodule-express-checkout.php:242
+msgid "Authorization"
+msgstr ""
+
+#: includes/gateways/express-checkout/settings-palmodule-express-checkout.php:243
+msgid "Order"
+msgstr ""
+
+#: includes/gateways/express-checkout/settings-palmodule-express-checkout.php:247
+msgid "Debug"
+msgstr ""
+
+#: includes/gateways/express-checkout/settings-palmodule-express-checkout.php:249
+msgid "Enable logging<code>%s</code>"
+msgstr ""
+
+#: includes/gateways/paypal-advanced/class-wc-gateway-palmodule-paypal-advanced-api-handler.php:33
+#: includes/gateways/paypal-advanced/class-wc-gateway-palmodule-paypal-advanced-api-handler.php:159
+#: includes/gateways/paypal-advanced/class-wc-gateway-palmodule-paypal-advanced-api-handler.php:212
+#: includes/gateways/paypal-pro/class-wc-gateway-palmodule-paypal-pro-api-handler.php:134
+#: includes/gateways/paypal-pro/class-wc-gateway-palmodule-paypal-pro-api-handler.php:221
+#: includes/gateways/paypal-pro/class-wc-gateway-palmodule-paypal-pro-api-handler.php:276
+#: includes/gateways/paypal-pro-payflow/class-wc-gateway-palmodule-paypal-pro-payflow-api-handler.php:113
+#: includes/gateways/paypal-pro-payflow/class-wc-gateway-palmodule-paypal-pro-payflow-api-handler.php:182
+#: includes/gateways/paypal-pro-payflow/class-wc-gateway-palmodule-paypal-pro-payflow-api-handler.php:230
+msgid "There was a problem connecting to the payment gateway."
+msgstr ""
+
+#: includes/gateways/paypal-advanced/class-wc-gateway-palmodule-paypal-advanced-api-handler.php:37
+#: includes/gateways/paypal-pro/class-wc-gateway-palmodule-paypal-pro-api-handler.php:139
+msgid "Empty Paypal response."
+msgstr ""
+
+#: includes/gateways/paypal-advanced/class-wc-gateway-palmodule-paypal-advanced-api-handler.php:52
+msgid "PayPal Pro (Payflow) token generation failed: "
+msgstr ""
+
+#: includes/gateways/paypal-advanced/class-wc-gateway-palmodule-paypal-advanced-api-handler.php:53
+#: includes/gateways/paypal-pro-payflow/class-wc-gateway-palmodule-paypal-pro-payflow-api-handler.php:155
+msgid "Payment error:"
+msgstr ""
+
+#: includes/gateways/paypal-advanced/class-wc-gateway-palmodule-paypal-advanced-api-handler.php:181
+#: includes/gateways/paypal-advanced/class-wc-gateway-palmodule-paypal-advanced-api-handler.php:183
+#: includes/gateways/paypal-pro/class-wc-gateway-palmodule-paypal-pro-api-handler.php:243
+#: includes/gateways/paypal-pro/class-wc-gateway-palmodule-paypal-pro-api-handler.php:245
+#: includes/gateways/paypal-pro-payflow/class-wc-gateway-palmodule-paypal-pro-payflow-api-handler.php:199
+#: includes/gateways/paypal-pro-payflow/class-wc-gateway-palmodule-paypal-pro-payflow-api-handler.php:201
+msgid "This order cannot be refunded due to an authorized only transaction.  Please use cancel instead."
+msgstr ""
+
+#: includes/gateways/paypal-advanced/class-wc-gateway-palmodule-paypal-advanced-api-handler.php:215
+#: includes/gateways/paypal-pro/class-wc-gateway-palmodule-paypal-pro-api-handler.php:145
+#: includes/gateways/paypal-pro/class-wc-gateway-palmodule-paypal-pro-api-handler.php:280
+#: includes/gateways/paypal-pro-payflow/class-wc-gateway-palmodule-paypal-pro-payflow-api-handler.php:233
+msgid "Unexpected response from PayPal."
+msgstr ""
+
+#: includes/gateways/paypal-advanced/class-wc-gateway-palmodule-paypal-advanced-api-handler.php:220
+#: includes/gateways/paypal-pro-payflow/class-wc-gateway-palmodule-paypal-pro-payflow-api-handler.php:238
+msgid "Refunded %1$s - PNREF: %2$s"
+msgstr ""
+
+#: includes/gateways/paypal-advanced/class-wc-gateway-palmodule-paypal-advanced-api-handler.php:246
+#: includes/gateways/paypal-pro-payflow/class-wc-gateway-palmodule-paypal-pro-payflow-api-handler.php:130
+msgid "PayPal Pro (PayFlow) charge authorized (Charge ID: %s). Process order to take payment, or cancel to remove the pre-authorization."
+msgstr ""
+
+#: includes/gateways/paypal-advanced/class-wc-gateway-palmodule-paypal-advanced-api-handler.php:253
+#: includes/gateways/paypal-pro-payflow/class-wc-gateway-palmodule-paypal-pro-payflow-api-handler.php:137
+msgid "PayPal Pro (Payflow) payment completed (PNREF: %s)"
+msgstr ""
+
+#: includes/gateways/paypal-advanced/class-wc-gateway-palmodule-paypal-advanced-api-handler.php:262
+#: includes/gateways/paypal-pro-payflow/class-wc-gateway-palmodule-paypal-pro-payflow-api-handler.php:145
+msgid "The payment was flagged by a fraud filter. Please check your PayPal Manager account to review and accept or deny the payment and then mark this order \"processing\" or \"cancelled\"."
+msgstr ""
+
+#: includes/gateways/paypal-advanced/class-wc-gateway-palmodule-paypal-advanced-api-handler.php:289
+msgid "Enter your payment details below and click \"Confirm and pay\" to securely pay for your order."
+msgstr ""
+
+#: includes/gateways/paypal-advanced/class-wc-gateway-palmodule-paypal-advanced-api-handler.php:295
+msgid "TEST/SANDBOX MODE ENABLED. In test mode, you can use the card number 4111111111111111 with any CVC and a valid expiration date."
+msgstr ""
+
+#: includes/gateways/paypal-advanced/class-wc-gateway-palmodule-paypal-advanced-api-handler.php:298
+msgid "Card Number "
+msgstr ""
+
+#: includes/gateways/paypal-advanced/class-wc-gateway-palmodule-paypal-advanced-api-handler.php:302
+msgid "Expiry (MM/YY) "
+msgstr ""
+
+#: includes/gateways/paypal-advanced/class-wc-gateway-palmodule-paypal-advanced-api-handler.php:306
+msgid "Card Code "
+msgstr ""
+
+#: includes/gateways/paypal-advanced/class-wc-gateway-palmodule-paypal-advanced-api-handler.php:314
+msgid "Confirm and pay"
+msgstr ""
+
+#: includes/gateways/paypal-advanced/class-wc-gateway-palmodule-paypal-advanced.php:16
+msgid "PayPal Advanced"
+msgstr ""
+
+#: includes/gateways/paypal-advanced/class-wc-gateway-palmodule-paypal-advanced.php:17
+msgid "PayPal Advanced works by adding credit card fields on the checkout and then sending the details to PayPal for verification."
+msgstr ""
+
+#: includes/gateways/paypal-advanced/class-wc-gateway-palmodule-paypal-advanced.php:51
+msgid "Enter payment details"
+msgstr ""
+
+#: includes/gateways/paypal-advanced/settings-palmodule-paypal-advanced.php:13
+msgid "Enable PayPal Pro Advanced Edition"
+msgstr ""
+
+#: includes/gateways/paypal-advanced/settings-palmodule-paypal-advanced.php:22
+#: includes/gateways/paypal-pro/settings-palmodule-paypal-pro.php:22
+#: includes/gateways/paypal-pro-payflow/settings-palmodule-paypal-pro-payflow.php:22
+msgid "Credit card (PayPal)"
+msgstr ""
+
+#: includes/gateways/paypal-advanced/settings-palmodule-paypal-advanced.php:29
+#: includes/gateways/paypal-pro-payflow/settings-palmodule-paypal-pro-payflow.php:29
+msgid "Pay with your credit card."
+msgstr ""
+
+#: includes/gateways/paypal-advanced/settings-palmodule-paypal-advanced.php:33
+#: includes/gateways/paypal-pro/settings-palmodule-paypal-pro.php:109
+#: includes/gateways/paypal-pro-payflow/settings-palmodule-paypal-pro-payflow.php:33
+msgid "Soft Descriptor"
+msgstr ""
+
+#: includes/gateways/paypal-advanced/settings-palmodule-paypal-advanced.php:35
+#: includes/gateways/paypal-pro/settings-palmodule-paypal-pro.php:111
+#: includes/gateways/paypal-pro-payflow/settings-palmodule-paypal-pro-payflow.php:35
+msgid "(Optional) Information that is usually displayed in the account holder's statement, for example your website name. Only 23 alphanumeric characters can be included, including the special characters dash (-) and dot (.) . Asterisks (*) and spaces ( ) are NOT permitted."
+msgstr ""
+
+#: includes/gateways/paypal-advanced/settings-palmodule-paypal-advanced.php:51
+#: includes/gateways/paypal-pro/settings-palmodule-paypal-pro.php:33
+#: includes/gateways/paypal-pro-payflow/settings-palmodule-paypal-pro-payflow.php:51
+msgid "Test Mode"
+msgstr ""
+
+#: includes/gateways/paypal-advanced/settings-palmodule-paypal-advanced.php:52
+#: includes/gateways/paypal-pro/settings-palmodule-paypal-pro.php:34
+#: includes/gateways/paypal-pro-payflow/settings-palmodule-paypal-pro-payflow.php:52
+msgid "Enable PayPal Sandbox/Test Mode"
+msgstr ""
+
+#: includes/gateways/paypal-advanced/settings-palmodule-paypal-advanced.php:54
+#: includes/gateways/paypal-pro/settings-palmodule-paypal-pro.php:36
+#: includes/gateways/paypal-pro-payflow/settings-palmodule-paypal-pro-payflow.php:54
+msgid "Place the payment gateway in development mode."
+msgstr ""
+
+#: includes/gateways/paypal-advanced/settings-palmodule-paypal-advanced.php:59
+#: includes/gateways/paypal-pro-payflow/settings-palmodule-paypal-pro-payflow.php:59
+msgid "Sandbox PayPal Vendor"
+msgstr ""
+
+#: includes/gateways/paypal-advanced/settings-palmodule-paypal-advanced.php:61
+#: includes/gateways/paypal-advanced/settings-palmodule-paypal-advanced.php:91
+#: includes/gateways/paypal-pro-payflow/settings-palmodule-paypal-pro-payflow.php:61
+#: includes/gateways/paypal-pro-payflow/settings-palmodule-paypal-pro-payflow.php:91
+msgid "Your merchant login ID that you created when you registered for the account."
+msgstr ""
+
+#: includes/gateways/paypal-advanced/settings-palmodule-paypal-advanced.php:66
+#: includes/gateways/paypal-pro-payflow/settings-palmodule-paypal-pro-payflow.php:66
+msgid "Sandbox PayPal Password"
+msgstr ""
+
+#: includes/gateways/paypal-advanced/settings-palmodule-paypal-advanced.php:68
+#: includes/gateways/paypal-advanced/settings-palmodule-paypal-advanced.php:98
+#: includes/gateways/paypal-pro-payflow/settings-palmodule-paypal-pro-payflow.php:68
+#: includes/gateways/paypal-pro-payflow/settings-palmodule-paypal-pro-payflow.php:98
+msgid "The password that you defined while registering for the account."
+msgstr ""
+
+#: includes/gateways/paypal-advanced/settings-palmodule-paypal-advanced.php:73
+#: includes/gateways/paypal-pro-payflow/settings-palmodule-paypal-pro-payflow.php:73
+msgid "Sandbox PayPal User"
+msgstr ""
+
+#: includes/gateways/paypal-advanced/settings-palmodule-paypal-advanced.php:75
+#: includes/gateways/paypal-advanced/settings-palmodule-paypal-advanced.php:105
+#: includes/gateways/paypal-pro-payflow/settings-palmodule-paypal-pro-payflow.php:75
+#: includes/gateways/paypal-pro-payflow/settings-palmodule-paypal-pro-payflow.php:105
+msgid ""
+"If you set up one or more additional users on the account, this value is the ID\n"
+"\t\t\tof the user authorized to process transactions. Otherwise, leave this field blank."
+msgstr ""
+
+#: includes/gateways/paypal-advanced/settings-palmodule-paypal-advanced.php:81
+#: includes/gateways/paypal-pro-payflow/settings-palmodule-paypal-pro-payflow.php:81
+msgid "Sandbox PayPal Partner"
+msgstr ""
+
+#: includes/gateways/paypal-advanced/settings-palmodule-paypal-advanced.php:83
+#: includes/gateways/paypal-advanced/settings-palmodule-paypal-advanced.php:113
+msgid ""
+"The ID provided to you by the authorized PayPal Reseller who registered you\n"
+"\t\t\tfor the Advanced SDK. If you purchased your account directly from PayPal, use PayPal or leave blank."
+msgstr ""
+
+#: includes/gateways/paypal-advanced/settings-palmodule-paypal-advanced.php:89
+#: includes/gateways/paypal-pro-payflow/settings-palmodule-paypal-pro-payflow.php:89
+msgid "PayPal Vendor"
+msgstr ""
+
+#: includes/gateways/paypal-advanced/settings-palmodule-paypal-advanced.php:96
+#: includes/gateways/paypal-pro-payflow/settings-palmodule-paypal-pro-payflow.php:96
+msgid "PayPal Password"
+msgstr ""
+
+#: includes/gateways/paypal-advanced/settings-palmodule-paypal-advanced.php:103
+#: includes/gateways/paypal-pro-payflow/settings-palmodule-paypal-pro-payflow.php:103
+msgid "PayPal User"
+msgstr ""
+
+#: includes/gateways/paypal-advanced/settings-palmodule-paypal-advanced.php:111
+#: includes/gateways/paypal-pro-payflow/settings-palmodule-paypal-pro-payflow.php:111
+msgid "PayPal Partner"
+msgstr ""
+
+#: includes/gateways/paypal-advanced/settings-palmodule-paypal-advanced.php:125
+#: includes/gateways/paypal-pro/settings-palmodule-paypal-pro.php:89
+#: includes/gateways/paypal-pro-payflow/settings-palmodule-paypal-pro-payflow.php:125
+msgid "Capture"
+msgstr ""
+
+#: includes/gateways/paypal-advanced/settings-palmodule-paypal-advanced.php:126
+#: includes/gateways/paypal-pro/settings-palmodule-paypal-pro.php:90
+#: includes/gateways/paypal-pro-payflow/settings-palmodule-paypal-pro-payflow.php:126
+msgid "Authorize"
+msgstr ""
+
+#: includes/gateways/paypal-advanced/settings-palmodule-paypal-advanced.php:141
+msgid "Log PayPal Pro (Advanced) events inside <code>woocommerce/logs/paypal-pro-advanced.txt</code>"
+msgstr ""
+
+#: includes/gateways/paypal-pro/class-wc-gateway-palmodule-paypal-pro-api-handler.php:157
+msgid "PayPal Pro charge authorized (Charge ID: %s). Process order to take payment, or cancel to remove the pre-authorization."
+msgstr ""
+
+#: includes/gateways/paypal-pro/class-wc-gateway-palmodule-paypal-pro-api-handler.php:164
+msgid "PayPal Pro payment completed (Transaction ID: %s, Correlation ID: %s)"
+msgstr ""
+
+#: includes/gateways/paypal-pro/class-wc-gateway-palmodule-paypal-pro-api-handler.php:189
+msgid "PayPal Pro payment failed (Correlation ID: %s). Payment was rejected due to an error: "
+msgstr ""
+
+#: includes/gateways/paypal-pro/class-wc-gateway-palmodule-paypal-pro-api-handler.php:194
+msgid "Payment error"
+msgstr ""
+
+#: includes/gateways/paypal-pro/class-wc-gateway-palmodule-paypal-pro-api-handler.php:285
+msgid "Refunded %1$s - Refund ID: %2$s"
+msgstr ""
+
+#: includes/gateways/paypal-pro/class-wc-gateway-palmodule-paypal-pro.php:17
+msgid "PayPal Pro"
+msgstr ""
+
+#: includes/gateways/paypal-pro/class-wc-gateway-palmodule-paypal-pro.php:18
+msgid "PayPal Pro works by adding credit card fields on the checkout and then sending the details to PayPal for verification."
+msgstr ""
+
+#: includes/gateways/paypal-pro/class-wc-gateway-palmodule-paypal-pro.php:151
+#: includes/gateways/paypal-pro-payflow/class-wc-gateway-palmodule-paypal-pro-payflow.php:152
+#: includes/gateways/paypal-rest/class-wc-gateway-palmodule-paypal-rest.php:84
+msgid "NOTICE: SANDBOX (TEST) MODE ENABLED."
+msgstr ""
+
+#: includes/gateways/paypal-pro/class-wc-gateway-palmodule-paypal-pro.php:153
+#: includes/gateways/paypal-rest/class-wc-gateway-palmodule-paypal-rest.php:86
+msgid "For testing purposes you can use the card number 4916311462114485 with any CVC and a valid expiration date."
+msgstr ""
+
+#: includes/gateways/paypal-pro/class-wc-gateway-palmodule-paypal-pro.php:183
+#: includes/gateways/paypal-pro/class-wc-gateway-palmodule-paypal-pro.php:189
+#: includes/gateways/paypal-pro-payflow/class-wc-gateway-palmodule-paypal-pro-payflow.php:105
+#: includes/gateways/paypal-pro-payflow/class-wc-gateway-palmodule-paypal-pro-payflow.php:111
+#: includes/gateways/paypal-rest/class-wc-gateway-palmodule-paypal-rest.php:105
+#: includes/gateways/paypal-rest/class-wc-gateway-palmodule-paypal-rest.php:111
+msgid "Card expiration date is invalid"
+msgstr ""
+
+#: includes/gateways/paypal-pro/class-wc-gateway-palmodule-paypal-pro.php:186
+#: includes/gateways/paypal-pro-payflow/class-wc-gateway-palmodule-paypal-pro-payflow.php:108
+#: includes/gateways/paypal-rest/class-wc-gateway-palmodule-paypal-rest.php:108
+msgid "Card security code is invalid (only digits are allowed)"
+msgstr ""
+
+#: includes/gateways/paypal-pro/class-wc-gateway-palmodule-paypal-pro.php:192
+#: includes/gateways/paypal-pro-payflow/class-wc-gateway-palmodule-paypal-pro-payflow.php:114
+#: includes/gateways/paypal-rest/class-wc-gateway-palmodule-paypal-rest.php:114
+msgid "Card number is invalid"
+msgstr ""
+
+#: includes/gateways/paypal-pro/settings-palmodule-paypal-pro.php:13
+msgid "Enable PayPal Pro"
+msgstr ""
+
+#: includes/gateways/paypal-pro/settings-palmodule-paypal-pro.php:29
+msgid "Pay with your credit card via PayPal Website Payments Pro."
+msgstr ""
+
+#: includes/gateways/paypal-pro/settings-palmodule-paypal-pro.php:41
+msgid "Sandbox API Username"
+msgstr ""
+
+#: includes/gateways/paypal-pro/settings-palmodule-paypal-pro.php:43
+#: includes/gateways/paypal-pro/settings-palmodule-paypal-pro.php:50
+#: includes/gateways/paypal-pro/settings-palmodule-paypal-pro.php:57
+#: includes/gateways/paypal-pro/settings-palmodule-paypal-pro.php:64
+#: includes/gateways/paypal-pro/settings-palmodule-paypal-pro.php:71
+#: includes/gateways/paypal-pro/settings-palmodule-paypal-pro.php:78
+msgid "Get your API credentials from PayPal."
+msgstr ""
+
+#: includes/gateways/paypal-pro/settings-palmodule-paypal-pro.php:48
+msgid "Sandbox API Password"
+msgstr ""
+
+#: includes/gateways/paypal-pro/settings-palmodule-paypal-pro.php:55
+msgid "Sandbox API Signature"
+msgstr ""
+
+#: includes/gateways/paypal-pro/settings-palmodule-paypal-pro.php:62
+msgid "API Username"
+msgstr ""
+
+#: includes/gateways/paypal-pro/settings-palmodule-paypal-pro.php:69
+msgid "API Password"
+msgstr ""
+
+#: includes/gateways/paypal-pro/settings-palmodule-paypal-pro.php:76
+msgid "API Signature"
+msgstr ""
+
+#: includes/gateways/paypal-pro/settings-palmodule-paypal-pro.php:94
+msgid "Send Item Details"
+msgstr ""
+
+#: includes/gateways/paypal-pro/settings-palmodule-paypal-pro.php:95
+msgid "Send Line Items to PayPal"
+msgstr ""
+
+#: includes/gateways/paypal-pro/settings-palmodule-paypal-pro.php:97
+msgid "Sends line items to PayPal. If you experience rounding errors this can be disabled."
+msgstr ""
+
+#: includes/gateways/paypal-pro/settings-palmodule-paypal-pro.php:131
+msgid "Log PayPal Pro events inside <code>woocommerce/logs/paypal-pro.txt</code>"
+msgstr ""
+
+#: includes/gateways/paypal-pro-payflow/class-wc-gateway-palmodule-paypal-pro-payflow-api-handler.php:117
+msgid "Empty PayPal response."
+msgstr ""
+
+#: includes/gateways/paypal-pro-payflow/class-wc-gateway-palmodule-paypal-pro-payflow-api-handler.php:154
+msgid "PayPal Pro (Payflow) payment failed. Payment was rejected due to an error: "
+msgstr ""
+
+#: includes/gateways/paypal-pro-payflow/class-wc-gateway-palmodule-paypal-pro-payflow-api-handler.php:159
+msgid "Connection error:"
+msgstr ""
+
+#: includes/gateways/paypal-pro-payflow/class-wc-gateway-palmodule-paypal-pro-payflow.php:16
+msgid "PayPal Pro PayFlow"
+msgstr ""
+
+#: includes/gateways/paypal-pro-payflow/class-wc-gateway-palmodule-paypal-pro-payflow.php:17
+msgid "PayPal Pro PayFlow Edition works by adding credit card fields on the checkout and then sending the details to PayPal for verification."
+msgstr ""
+
+#: includes/gateways/paypal-pro-payflow/class-wc-gateway-palmodule-paypal-pro-payflow.php:154
+msgid "For testing purposes you can use the card number 4111111111111111 with any CVC and a valid expiration date."
+msgstr ""
+
+#: includes/gateways/paypal-pro-payflow/settings-palmodule-paypal-pro-payflow.php:13
+msgid "Enable PayPal Pro Payflow Edition"
+msgstr ""
+
+#: includes/gateways/paypal-pro-payflow/settings-palmodule-paypal-pro-payflow.php:83
+#: includes/gateways/paypal-pro-payflow/settings-palmodule-paypal-pro-payflow.php:113
+msgid ""
+"The ID provided to you by the authorized PayPal Reseller who registered you\n"
+"\t\t\tfor the Payflow SDK. If you purchased your account directly from PayPal, use PayPal or leave blank."
+msgstr ""
+
+#: includes/gateways/paypal-pro-payflow/settings-palmodule-paypal-pro-payflow.php:141
+msgid "Log PayPal Pro (Payflow) events inside <code>woocommerce/logs/paypal-pro-payflow.txt</code>"
+msgstr ""
+
+#: includes/gateways/paypal-rest/class-wc-gateway-palmodule-paypal-rest-api-handler.php:271
+#: includes/gateways/paypal-rest/class-wc-gateway-palmodule-paypal-rest-api-handler.php:280
+msgid "PayPal Credit Card Payments (REST) payment completed"
+msgstr ""
+
+#: includes/gateways/paypal-rest/class-wc-gateway-palmodule-paypal-rest.php:24
+msgid "PayPal direct credit card payments using the REST API.  This allows you to accept credit cards directly on the website."
+msgstr ""
+
+#: includes/gateways/paypal-rest/class-wc-gateway-palmodule-paypal-rest.php:98
+msgid "Error processing checkout. Please try again."
+msgstr ""
+
+#: includes/gateways/paypal-rest/settings-palmodule-paypal-rest.php:14
+msgid "Enable PayPal Credit Card (REST)"
+msgstr ""
+
+#: includes/gateways/paypal-rest/settings-palmodule-paypal-rest.php:21
+msgid "PayPal Credit Card (REST)"
+msgstr ""
+
+#: includes/gateways/paypal-rest/settings-palmodule-paypal-rest.php:27
+msgid "Pay with your credit card"
+msgstr ""
+
+#: includes/gateways/paypal-rest/settings-palmodule-paypal-rest.php:78
+msgid "Log PayPal events, such as Secured Token requests, inside <code>%s</code>"
+msgstr ""
+
+#: includes/gateways/paypal-rest/settings-palmodule-paypal-rest.php:81
+msgid "Advanced options"
+msgstr ""
+
+#: includes/gateways/paypal-rest/settings-palmodule-paypal-rest.php:86
+#: includes/gateways/paypal-rest/settings-palmodule-paypal-rest.php:87
+msgid "Enable Tokenized Payments"
+msgstr ""
+
+#: includes/gateways/paypal-rest/settings-palmodule-paypal-rest.php:89
+msgid "Allow buyers to securely save payment details to their account for quick checkout / auto-ship orders in the future."
+msgstr ""
+
+#: includes/paypal-ipn/class-palmodule-paypal-payment-for-woocoomerce-paypal-ipn-handler.php:117
+msgid "Validation error: PayPal currencies do not match (code %s)."
+msgstr ""
+
+#: includes/paypal-ipn/class-palmodule-paypal-payment-for-woocoomerce-paypal-ipn-handler.php:130
+msgid "Validation error: PayPal amounts do not match (gross %s)."
+msgstr ""
+
+#: includes/paypal-ipn/class-palmodule-paypal-payment-for-woocoomerce-paypal-ipn-handler.php:151
+msgid "IPN payment completed"
+msgstr ""
+
+#: includes/paypal-ipn/class-palmodule-paypal-payment-for-woocoomerce-paypal-ipn-handler.php:156
+msgid "Payment pending: %s"
+msgstr ""
+
+#: includes/paypal-ipn/class-palmodule-paypal-payment-for-woocoomerce-paypal-ipn-handler.php:175
+#: includes/paypal-ipn/class-palmodule-paypal-payment-for-woocoomerce-paypal-ipn-handler.php:213
+#: includes/paypal-ipn/class-palmodule-paypal-payment-for-woocoomerce-paypal-ipn-handler.php:214
+#: includes/paypal-ipn/class-palmodule-paypal-payment-for-woocoomerce-paypal-ipn-handler.php:228
+#: includes/paypal-ipn/class-palmodule-paypal-payment-for-woocoomerce-paypal-ipn-handler.php:229
+#: includes/paypal-ipn/class-palmodule-paypal-payment-for-woocoomerce-paypal-ipn-handler.php:242
+msgid "Payment %s via IPN."
+msgstr ""
+
+#: includes/paypal-ipn/class-palmodule-paypal-payment-for-woocoomerce-paypal-ipn-handler.php:216
+msgid "Payment for order %s refunded"
+msgstr ""
+
+#: includes/paypal-ipn/class-palmodule-paypal-payment-for-woocoomerce-paypal-ipn-handler.php:216
+msgid "Order #%s has been marked as refunded - PayPal reason code: %s"
+msgstr ""
+
+#: includes/paypal-ipn/class-palmodule-paypal-payment-for-woocoomerce-paypal-ipn-handler.php:231
+msgid "Payment for order %s reversed"
+msgstr ""
+
+#: includes/paypal-ipn/class-palmodule-paypal-payment-for-woocoomerce-paypal-ipn-handler.php:231
+msgid "Order #%s has been marked on-hold due to a reversal - PayPal reason code: %s"
+msgstr ""
+
+#: includes/paypal-ipn/class-palmodule-paypal-payment-for-woocoomerce-paypal-ipn-handler.php:244
+msgid "Reversal cancelled for order #%s"
+msgstr ""
+
+#: includes/paypal-ipn/class-palmodule-paypal-payment-for-woocoomerce-paypal-ipn-handler.php:244
+msgid "Order #%s has had a reversal cancelled. Please check the status of payment and update the order status accordingly here: %s"
+msgstr ""
+#. Plugin Name of the plugin/theme
+msgid "PayPal Payment For WooCoomerce"
+msgstr ""
+
+#. Plugin URI of the plugin/theme
+msgid "palmodule-paypal-payment-for-woocoomerce"
+msgstr ""
+
+#. Description of the plugin/theme
+msgid "Easily add PayPal payment options to your WordPress / WooCommerce website."
+msgstr ""
+
+#. Author of the plugin/theme
+msgid "palmoduledev"
+msgstr ""
+
+#. Author URI of the plugin/theme
+msgid "https://profiles.wordpress.org/palmoduledev"
+msgstr ""
